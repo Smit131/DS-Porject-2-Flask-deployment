@@ -1,6 +1,1 @@
-RegexpTokenizer
-WordNetLemmatizer
-PorterStemmer
-stopwords
-word_tokenize
-FreqDist
+wordnet
