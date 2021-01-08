@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib
-
+nltk.data.path.append('./nltk_data/')
 import nltk
 from textblob import TextBlob
 from nltk.tokenize import word_tokenize
