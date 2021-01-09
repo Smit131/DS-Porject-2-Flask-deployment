@@ -17,17 +17,16 @@
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-    	<input type="text" name="Mail Content" placeholder="Mail Content" required="required" />
+    	<input type="text" name="Mail Content" placeholder="Mail Content" required="required" size="100" />
 
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>
    <br>
    <br>
-   {{ clean_text }}
    <br>
    <br>
-   <br>
-   {{ prediction_text }}
+   <span style=“ background-color: #FFFF00”>{{ prediction_text }}
+   </span>
 
  </div>
 
